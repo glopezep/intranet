@@ -10,8 +10,8 @@ const LoggendinCard = () => (
         <Logo url="/public/img/logopawa.png" height="150"/>
       </div>
       <div className="info">
-        <p className="message"></p>
-        <p className="user-name"></p>
+        <p className="message">Bienvenido</p>
+        <p className="username">Guillermo</p>
       </div>
     </div>
     <footer className="footer">
@@ -19,6 +19,21 @@ const LoggendinCard = () => (
       <a className="language-link" href="#">English</a>
     </footer>
     <style jsx>{`
+      .body {
+        background-color: #fff;
+        height: 372px;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 220px;
+      }
+
+      .footer {
+        height: 40px;
+      }
       /*.container {
         background-color: #c50423;
         display: flex;
