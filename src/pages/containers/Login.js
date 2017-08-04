@@ -6,10 +6,13 @@ class LoginView extends Component {
     return (
       <div className="login-view">
         <Login />
-
         <style jsx>{`
-          .login-container {
-            padding: 2em;
+          .login-view {
+            display: flex;
+            background: url('/public/img/bg-3.jpg') center center no-repeat;
+            background-size: cover;
+            flex-direction: column;
+            min-height: 100vh;
           }
         `}</style>
       </div>
