@@ -1,7 +1,7 @@
-import React from 'react' // eslint-disable-line no-unused-vars
-import { render } from 'react-dom' // eslint-disable-line no-unused-vars
-import { BrowserRouter, Route, Link } from 'react-router-dom' // eslint-disable-line no-unused-vars
-import Page from './pages/containers/Page' // eslint-disable-line no-unused-vars
+import React from 'react'
+import { render } from 'react-dom'
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+import Page from './pages/containers/Page'
 
 const container = document.getElementById('root')
 

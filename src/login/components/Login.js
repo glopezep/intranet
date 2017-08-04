@@ -1,10 +1,11 @@
-import React from 'react' // eslint-disable-line
+import React from 'react'
 import Button from '../../shared/components/Button'
+import Logo from '../../shared/components/Logo'
 
 const Login = () => (
   <div className="login">
     <header className="header">
-      <img src="/public/img/logopawa.png" alt="Logo" height="160" />
+      <Logo url="/public/img/logopawa.png" height="160"/>
     </header>
     <div className="body">
       <form className="form">
