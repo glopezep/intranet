@@ -1,15 +1,46 @@
 import React, { Component } from 'react'
 import Footer from '../components/Footer'
 import LoggedinCard from '../../shared/components/LoggedinCard'
-import Slider from '../../shared/components/Slider'
 import Logo from '../../shared/components/Logo'
 import FlatButton from '../../shared/components/FlatButton'
 
-const Card = () => (
-  <article className="card">
+class Slider extends Component {
+  constructor (props) {
+    super(props)
 
-  </article>
-)
+    this.state = {
+      current: '0',
+      images: [
+        'http://placehold.it/1000x400/ffffff/c0392b/&text=slide1',
+        'http://placehold.it/1000x400/ffffff/c0392b/&text=slide2',
+        'http://placehold.it/1000x400/ffffff/c0392b/&text=slide3'
+      ]
+    }
+  }
+
+  next () {
+
+  }
+
+  render () {
+    const images = this.state.images
+    return (
+      <div className="slider">
+        {this.state.images.map((link, index) => (
+          <img src={link} style="position: relative"/>
+        ))}
+        <style jsx>{`
+          .hide {
+            display: none;
+          }
+
+        `}</style>
+      </div>
+    )
+  }
+}
+
+
 
 class HomeView extends Component {
   render () {
@@ -17,7 +48,7 @@ class HomeView extends Component {
       <section className="home-view">
         <div className="container">
           <LoggedinCard />
-          {/* <Slider /> */}
+          <Slider />
         </div>
         <Footer />
         <style jsx>{`
