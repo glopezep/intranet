@@ -6,17 +6,18 @@ const Button = (props) => (
 
     <style jsx>{`
       .button {
-        background: #c8102e;
-        border: 0;
-        color: #fff;
+        background: transparent;
+        border: 1px solid #c8102e;
+        color: #c8102e;
         cursor: pointer;
-        padding: 1em;
+        padding: .25em 1em;
         text-transform: uppercase;
         transition: background ease .2s
       }
 
       .button:hover {
         background: #9e0c24
+        color: #fff;
       }
     `}</style>
   </button>
