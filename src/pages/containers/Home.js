@@ -3,46 +3,15 @@ import Footer from '../components/Footer'
 import LoggedinCard from '../../shared/components/LoggedinCard'
 import Logo from '../../shared/components/Logo'
 import FlatButton from '../../shared/components/FlatButton'
-
-class Slider extends Component {
-  constructor (props) {
-    super(props)
-
-    this.state = {
-      current: '0',
-      images: [
-        'http://placehold.it/1000x400/ffffff/c0392b/&text=slide1',
-        'http://placehold.it/1000x400/ffffff/c0392b/&text=slide2',
-        'http://placehold.it/1000x400/ffffff/c0392b/&text=slide3'
-      ]
-    }
-  }
-
-  next () {
-
-  }
-
-  render () {
-    const images = this.state.images
-    return (
-      <div className="slider">
-        {this.state.images.map((link, index) => (
-          <img src={link} style="position: relative"/>
-        ))}
-        <style jsx>{`
-          .hide {
-            display: none;
-          }
-
-        `}</style>
-      </div>
-    )
-  }
-}
+import Slider from '../../shared/components/Slider'
 
 
 
 class HomeView extends Component {
+  constructor (props) {
+    super(props)
+  }
+
   render () {
     return (
       <section className="home-view">
@@ -52,6 +21,10 @@ class HomeView extends Component {
         </div>
         <Footer />
         <style jsx>{`
+          * {
+            min-height: 0;
+            min-width: 0;
+          }
           .container {
             display: flex;
             flex-wrap: wrap;

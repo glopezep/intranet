@@ -28,6 +28,7 @@ const LoggendinCard = () => (
       }
 
       .card {
+        margin: 0 1em;
         width: 215px;
       }
 
