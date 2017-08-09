@@ -14,44 +14,40 @@ class HomeView extends Component {
       projects: [
         {
           id: 1,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          image: '/public/img/projects/documentos.jpg',
           title: 'Documentos en linea',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 2,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          image: '/public/img/projects/herramientas.jpg',
           title: 'Documentos en linea',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 3,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          image: '/public/img/projects/directorio.jpg',
           title: 'Documentos en linea',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 4,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
-          title: 'Documentos en linea',
+          image: '/public/img/projects/sms.jpg',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 5,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
-          title: 'Documentos en linea',
+          image: '/public/img/projects/PAWA-transmitido.jpg',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 6,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
-          title: 'Documentos en linea',
+          image: '/public/img/projects/soporte.jpg',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 7,
-          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
-          title: 'Documentos en linea',
+          image: '/public/img/projects/outlook.jpg',
           description: 'Consulta y descarga documentos.'
         }
       ]

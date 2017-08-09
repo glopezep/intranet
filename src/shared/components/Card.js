@@ -6,23 +6,29 @@ const Card = (props) => (
     <figure className="image-container">
       <img className="image" src={props.image} />
     </figure>
-    <h2 className="title">{props.title} {props.id}</h2>
-    <div className="description-container">
-      <p className="description">{props.description}</p>
+    <div className="body">
+      <h2 className="title">{props.title}</h2>
+      <div className="description-container">
+        <p className="description">{props.description}</p>
+      </div>
+      <PrimaryButton>
+        Acceder
+      </PrimaryButton>
     </div>
-    <PrimaryButton>
-      Acceder
-    </PrimaryButton>
+
 
 
     <style jsx>{`
+
+      .body {
+        padding: 0 1.5em;
+      }
 
       .card {
         background-color: #fff;
         height: 419px;
         margin: 0 1em 1em 0;
-        padding: 0 1.5em;
-        max-width: 167px;
+        max-width: 215px;
       }
 
       .description {
