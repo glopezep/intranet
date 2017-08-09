@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
 import Footer from '../components/Footer'
 import LoggedinCard from '../../shared/components/LoggedinCard'
-import Logo from '../../shared/components/Logo'
-import FlatButton from '../../shared/components/FlatButton'
-import Slider from '../../shared/components/Slider'
-import Card from '../../shared/components/Card'
+import ProjectList from '../../projects/components/ProjectList'
 
-class HomeView extends Component {
+class ProjectView extends Component {
   constructor (props) {
     super(props)
 
@@ -15,20 +12,16 @@ class HomeView extends Component {
         {
           id: 1,
           image: '/public/img/projects/documentos.jpg',
-          title: 'Documentos en linea',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 2,
           image: '/public/img/projects/herramientas.jpg',
-          title: 'Herramientas y Sistemas',
           description: 'Consulta y descarga documentos.',
-          link: '/projects'
         },
         {
           id: 3,
           image: '/public/img/projects/directorio.jpg',
-          title: 'Directorio',
           description: 'Consulta y descarga documentos.'
         },
         {
@@ -57,13 +50,10 @@ class HomeView extends Component {
 
   render () {
     return (
-      <section className="home-view">
+      <section className="view">
         <div className="container">
           <LoggedinCard />
-          <Slider />
-          {this.state.projects.map(project => (
-            <Card key={project.id} {...project} />
-          ))}
+          <ProjectList projects={this.state.projects} />
         </div>
         <Footer />
         <style jsx>{`
@@ -73,7 +63,7 @@ class HomeView extends Component {
             flex-wrap: wrap;
             margin: 1em;
           }
-          .home-view {
+          .view {
             background-color: #e9e8e8;
             display: flex;
             font-family: 'Lato', 'sans-serif';
@@ -86,4 +76,4 @@ class HomeView extends Component {
   }
 }
 
-export default HomeView
+export default ProjectView
