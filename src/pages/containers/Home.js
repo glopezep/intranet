@@ -4,25 +4,58 @@ import LoggedinCard from '../../shared/components/LoggedinCard'
 import Logo from '../../shared/components/Logo'
 import FlatButton from '../../shared/components/FlatButton'
 import Slider from '../../shared/components/Slider'
-
-
-const Card = () => (
-  <article className="card">
-    <style jsx>{`
-
-      .card {
-        background-color: #fff;
-        height: 419px;
-        margin: 0 1em 1em 0;
-        width: 215px;
-      }
-    `}</style>
-  </article>
-)
+import Card from '../../shared/components/Card'
 
 class HomeView extends Component {
   constructor (props) {
     super(props)
+
+    this.state = {
+      projects: [
+        {
+          id: 1,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        },
+        {
+          id: 2,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        },
+        {
+          id: 3,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        },
+        {
+          id: 4,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        },
+        {
+          id: 5,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        },
+        {
+          id: 6,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        },
+        {
+          id: 7,
+          image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.'
+        }
+      ]
+    }
   }
 
   render () {
@@ -31,13 +64,9 @@ class HomeView extends Component {
         <div className="container">
           <LoggedinCard />
           <Slider />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {this.state.projects.map(project => (
+            <Card key={project.id} {...project} />
+          ))}
         </div>
         <Footer />
         <style jsx>{`

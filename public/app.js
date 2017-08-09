@@ -27536,6 +27536,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _style = __webpack_require__(28);
@@ -27566,6 +27568,10 @@ var _Slider = __webpack_require__(374);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
+var _Card = __webpack_require__(375);
+
+var _Card2 = _interopRequireDefault(_Card);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27574,25 +27580,53 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Card = function Card() {
-  return _react2.default.createElement(
-    'article',
-    { className: 'card', 'data-jsx': 1659572783
-    },
-    _react2.default.createElement(_style2.default, {
-      styleId: 1659572783,
-      css: '.card[data-jsx="1659572783"]{background-color:#fff;height:419px;margin:0 1em 1em 0;width:215px}'
-    })
-  );
-};
-
 var HomeView = function (_Component) {
   _inherits(HomeView, _Component);
 
   function HomeView(props) {
     _classCallCheck(this, HomeView);
 
-    return _possibleConstructorReturn(this, (HomeView.__proto__ || Object.getPrototypeOf(HomeView)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (HomeView.__proto__ || Object.getPrototypeOf(HomeView)).call(this, props));
+
+    _this.state = {
+      projects: [{
+        id: 1,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }, {
+        id: 2,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }, {
+        id: 3,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }, {
+        id: 4,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }, {
+        id: 5,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }, {
+        id: 6,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }, {
+        id: 7,
+        image: 'https://intranet.pawadominicana.net/images/icon/icon_dashboard/documentos.jpg',
+        title: 'Documentos en linea',
+        description: 'Consulta y descarga documentos.'
+      }]
+    };
+    return _this;
   }
 
   _createClass(HomeView, [{
@@ -27608,13 +27642,9 @@ var HomeView = function (_Component) {
           },
           _react2.default.createElement(_LoggedinCard2.default, null),
           _react2.default.createElement(_Slider2.default, null),
-          _react2.default.createElement(Card, null),
-          _react2.default.createElement(Card, null),
-          _react2.default.createElement(Card, null),
-          _react2.default.createElement(Card, null),
-          _react2.default.createElement(Card, null),
-          _react2.default.createElement(Card, null),
-          _react2.default.createElement(Card, null)
+          this.state.projects.map(function (project) {
+            return _react2.default.createElement(_Card2.default, _extends({ key: project.id }, project));
+          })
         ),
         _react2.default.createElement(_Footer2.default, null),
         _react2.default.createElement(_style2.default, {
@@ -31328,6 +31358,112 @@ var SimpleSlider = function (_Component) {
 }(_react.Component);
 
 exports.default = SimpleSlider;
+
+/***/ }),
+/* 375 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _style = __webpack_require__(28);
+
+var _style2 = _interopRequireDefault(_style);
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _PrimaryButton = __webpack_require__(376);
+
+var _PrimaryButton2 = _interopRequireDefault(_PrimaryButton);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Card = function Card(props) {
+  return _react2.default.createElement(
+    'article',
+    { className: 'card', 'data-jsx': 773312942
+    },
+    _react2.default.createElement(
+      'figure',
+      { className: 'image-container', 'data-jsx': 773312942
+      },
+      _react2.default.createElement('img', { className: 'image', src: props.image, 'data-jsx': 773312942
+      })
+    ),
+    _react2.default.createElement(
+      'h2',
+      { className: 'title', 'data-jsx': 773312942
+      },
+      props.title,
+      ' ',
+      props.id
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'description-container', 'data-jsx': 773312942
+      },
+      _react2.default.createElement(
+        'p',
+        { className: 'description', 'data-jsx': 773312942
+        },
+        props.description
+      )
+    ),
+    _react2.default.createElement(
+      _PrimaryButton2.default,
+      null,
+      'Acceder'
+    ),
+    _react2.default.createElement(_style2.default, {
+      styleId: 773312942,
+      css: '.card[data-jsx="773312942"]{background-color:#fff;height:419px;margin:0 1em 1em 0;padding:0 1.5em;max-width:167px}.description[data-jsx="773312942"]{text-align:center}.description-container[data-jsx="773312942"]{height:70px}.image[data-jsx="773312942"]{width:100%}.image-container[data-jsx="773312942"]{height:196px}.title[data-jsx="773312942"]{height:80px;text-align:center}'
+    })
+  );
+};
+
+exports.default = Card;
+
+/***/ }),
+/* 376 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _style = __webpack_require__(28);
+
+var _style2 = _interopRequireDefault(_style);
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Button = function Button(props) {
+  return _react2.default.createElement(
+    "button",
+    { className: "button", "data-jsx": 1727651100
+    },
+    props.children,
+    _react2.default.createElement(_style2.default, {
+      styleId: 1727651100,
+      css: ".button[data-jsx=\"1727651100\"]{background:#0a3565;border:0;color:#fff;cursor:pointer;font-size:.8em;padding:1em;text-transform:uppercase;-webkit-transition:background ease .2s;transition:background ease .2s;width:100%}.button[data-jsx=\"1727651100\"]:hover{background:#c8102e}"
+    })
+  );
+};
+
+exports.default = Button;
 
 /***/ })
 /******/ ]);
