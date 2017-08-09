@@ -27574,6 +27574,18 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var Card = function Card() {
+  return _react2.default.createElement(
+    'article',
+    { className: 'card', 'data-jsx': 1659572783
+    },
+    _react2.default.createElement(_style2.default, {
+      styleId: 1659572783,
+      css: '.card[data-jsx="1659572783"]{background-color:#fff;height:419px;margin:0 1em 1em 0;width:215px}'
+    })
+  );
+};
+
 var HomeView = function (_Component) {
   _inherits(HomeView, _Component);
 
@@ -27588,19 +27600,26 @@ var HomeView = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        { className: 'home-view', 'data-jsx': 2702883691
+        { className: 'home-view', 'data-jsx': 1757188948
         },
         _react2.default.createElement(
           'div',
-          { className: 'container', 'data-jsx': 2702883691
+          { className: 'container', 'data-jsx': 1757188948
           },
           _react2.default.createElement(_LoggedinCard2.default, null),
-          _react2.default.createElement(_Slider2.default, null)
+          _react2.default.createElement(_Slider2.default, null),
+          _react2.default.createElement(Card, null),
+          _react2.default.createElement(Card, null),
+          _react2.default.createElement(Card, null),
+          _react2.default.createElement(Card, null),
+          _react2.default.createElement(Card, null),
+          _react2.default.createElement(Card, null),
+          _react2.default.createElement(Card, null)
         ),
         _react2.default.createElement(_Footer2.default, null),
         _react2.default.createElement(_style2.default, {
-          styleId: 2702883691,
-          css: '*[data-jsx="2702883691"]{min-height:0;min-width:0}.container[data-jsx="2702883691"]{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:1em}.home-view[data-jsx="2702883691"]{background-color:#e9e8e8;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-family:\'Lato\',\'sans-serif\';-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:100vh}'
+          styleId: 1757188948,
+          css: '.container[data-jsx="1757188948"]{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:1em}.home-view[data-jsx="1757188948"]{background-color:#e9e8e8;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-family:\'Lato\',\'sans-serif\';-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;min-height:100vh}'
         })
       );
     }
@@ -30950,37 +30969,37 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var LoggendinCard = function LoggendinCard() {
   return _react2.default.createElement(
     'article',
-    { className: 'card', 'data-jsx': 1749691687
+    { className: 'card', 'data-jsx': 275589742
     },
     _react2.default.createElement(
       'div',
-      { className: 'body', 'data-jsx': 1749691687
+      { className: 'body', 'data-jsx': 275589742
       },
       _react2.default.createElement(
         'div',
-        { className: 'logo-container', 'data-jsx': 1749691687
+        { className: 'logo-container', 'data-jsx': 275589742
         },
         _react2.default.createElement(_Logo2.default, { url: '/public/img/logopawa.png', height: '150' })
       ),
       _react2.default.createElement(
         'div',
-        { className: 'info', 'data-jsx': 1749691687
+        { className: 'info', 'data-jsx': 275589742
         },
         _react2.default.createElement(
           'div',
-          { className: 'welcome', 'data-jsx': 1749691687
+          { className: 'welcome', 'data-jsx': 275589742
           },
           _react2.default.createElement(
             'p',
             {
-              'data-jsx': 1749691687
+              'data-jsx': 275589742
             },
             'Bienvenido'
           ),
           _react2.default.createElement(
             'p',
             {
-              'data-jsx': 1749691687
+              'data-jsx': 275589742
             },
             'Jhon'
           )
@@ -30994,24 +31013,24 @@ var LoggendinCard = function LoggendinCard() {
     ),
     _react2.default.createElement(
       'footer',
-      { className: 'footer', 'data-jsx': 1749691687
+      { className: 'footer', 'data-jsx': 275589742
       },
       _react2.default.createElement(
         'a',
-        { href: '#', className: 'icon-container', 'data-jsx': 1749691687
+        { href: '#', className: 'icon-container', 'data-jsx': 275589742
         },
         '?'
       ),
       _react2.default.createElement(
         'a',
-        { href: '#', className: 'language', 'data-jsx': 1749691687
+        { href: '#', className: 'language', 'data-jsx': 275589742
         },
         'English'
       )
     ),
     _react2.default.createElement(_style2.default, {
-      styleId: 1749691687,
-      css: '.body[data-jsx="1749691687"]{background:#fff;margin-bottom:.5em;padding:0 1.5em}.card[data-jsx="1749691687"]{margin:0 1em;width:215px}.footer[data-jsx="1749691687"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#071b37;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:40px;-webkit-box-pack:space-between;-webkit-justify-content:space-between;-ms-flex-pack:space-between;justify-content:space-between}.info[data-jsx="1749691687"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:120px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.icon-container[data-jsx="1749691687"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#c50423;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-transition:background ease .2s;transition:background ease .2s;text-decoration:none;width:40px}.icon-container[data-jsx="1749691687"]:hover{background:#9e0c24}.language[data-jsx="1749691687"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;color:#fff;-webkit-flex:1;-ms-flex:1;flex:1;height:100%;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;padding-right:1em;text-decoration:none}.language[data-jsx="1749691687"]:hover{color:#f82647}.logo-container[data-jsx="1749691687"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-bottom:1px solid #d8d7d7;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;height:250px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.welcome[data-jsx="1749691687"]{margin-bottom:.5em;text-align:center}'
+      styleId: 275589742,
+      css: '.body[data-jsx="275589742"]{background:#fff;margin-bottom:.5em;padding:0 1.5em}.card[data-jsx="275589742"]{margin:0 1em 1em 0;width:215px}.footer[data-jsx="275589742"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#071b37;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:40px;-webkit-box-pack:space-between;-webkit-justify-content:space-between;-ms-flex-pack:space-between;justify-content:space-between}.info[data-jsx="275589742"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:120px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.icon-container[data-jsx="275589742"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#c50423;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-transition:background ease .2s;transition:background ease .2s;text-decoration:none;width:40px}.icon-container[data-jsx="275589742"]:hover{background:#9e0c24}.language[data-jsx="275589742"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;color:#fff;-webkit-flex:1;-ms-flex:1;flex:1;height:100%;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;padding-right:1em;text-decoration:none}.language[data-jsx="275589742"]:hover{color:#f82647}.logo-container[data-jsx="275589742"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-bottom:1px solid #d8d7d7;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;height:250px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.welcome[data-jsx="275589742"]{margin-bottom:.5em;text-align:center}'
     })
   );
 };
@@ -31267,7 +31286,7 @@ var SimpleSlider = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'slider-container', 'data-jsx': 228598110
+        { className: 'slider-container', 'data-jsx': 842353129
         },
         _react2.default.createElement(
           _reactSlick2.default,
@@ -31275,31 +31294,31 @@ var SimpleSlider = function (_Component) {
           _react2.default.createElement(
             'div',
             {
-              'data-jsx': 228598110
+              'data-jsx': 842353129
             },
-            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide1', 'data-jsx': 228598110
+            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide1', 'data-jsx': 842353129
             })
           ),
           _react2.default.createElement(
             'div',
             {
-              'data-jsx': 228598110
+              'data-jsx': 842353129
             },
-            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide2', 'data-jsx': 228598110
+            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide2', 'data-jsx': 842353129
             })
           ),
           _react2.default.createElement(
             'div',
             {
-              'data-jsx': 228598110
+              'data-jsx': 842353129
             },
-            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide3', 'data-jsx': 228598110
+            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide3', 'data-jsx': 842353129
             })
           )
         ),
         _react2.default.createElement(_style2.default, {
-          styleId: 228598110,
-          css: '.slider-container[data-jsx="228598110"]{height:419px;width:928px}'
+          styleId: 842353129,
+          css: '.slider-container[data-jsx="842353129"]{height:419px;margin:0 1em 1em 0;width:908px}'
         })
       );
     }

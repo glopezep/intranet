@@ -6,6 +6,19 @@ import FlatButton from '../../shared/components/FlatButton'
 import Slider from '../../shared/components/Slider'
 
 
+const Card = () => (
+  <article className="card">
+    <style jsx>{`
+
+      .card {
+        background-color: #fff;
+        height: 419px;
+        margin: 0 1em 1em 0;
+        width: 215px;
+      }
+    `}</style>
+  </article>
+)
 
 class HomeView extends Component {
   constructor (props) {
@@ -18,13 +31,17 @@ class HomeView extends Component {
         <div className="container">
           <LoggedinCard />
           <Slider />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
         <Footer />
         <style jsx>{`
-          * {
-            min-height: 0;
-            min-width: 0;
-          }
+
           .container {
             display: flex;
             flex-wrap: wrap;

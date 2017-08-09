@@ -36,7 +36,8 @@ class SimpleSlider extends Component {
         <style jsx>{`
           .slider-container {
             height: 419px;
-            width: 928px;
+            margin: 0 1em 1em 0;
+            width: 908px;
           }
         `}</style>
       </div>
