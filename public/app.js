@@ -27597,12 +27597,12 @@ var HomeView = function (_Component) {
       }, {
         id: 2,
         image: '/public/img/projects/herramientas.jpg',
-        title: 'Documentos en linea',
+        title: 'Herramientas y Sistemas',
         description: 'Consulta y descarga documentos.'
       }, {
         id: 3,
         image: '/public/img/projects/directorio.jpg',
-        title: 'Documentos en linea',
+        title: 'Directorio',
         description: 'Consulta y descarga documentos.'
       }, {
         id: 4,
@@ -29452,7 +29452,7 @@ var SimpleSlider = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'slider-container', 'data-jsx': 842353129
+        { className: 'slider-container', 'data-jsx': 3224661266
         },
         _react2.default.createElement(
           _reactSlick2.default,
@@ -29460,31 +29460,23 @@ var SimpleSlider = function (_Component) {
           _react2.default.createElement(
             'div',
             {
-              'data-jsx': 842353129
+              'data-jsx': 3224661266
             },
-            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide1', 'data-jsx': 842353129
+            _react2.default.createElement('img', { className: 'image', src: '/public/img/slider/ps-esp.jpg', 'data-jsx': 3224661266
             })
           ),
           _react2.default.createElement(
             'div',
             {
-              'data-jsx': 842353129
+              'data-jsx': 3224661266
             },
-            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide2', 'data-jsx': 842353129
-            })
-          ),
-          _react2.default.createElement(
-            'div',
-            {
-              'data-jsx': 842353129
-            },
-            _react2.default.createElement('img', { src: 'http://placehold.it/1000x400/ffffff/c0392b/&text=slide3', 'data-jsx': 842353129
+            _react2.default.createElement('img', { className: 'image', src: '/public/img/slider/bienvenido.jpg', 'data-jsx': 3224661266
             })
           )
         ),
         _react2.default.createElement(_style2.default, {
-          styleId: 842353129,
-          css: '.slider-container[data-jsx="842353129"]{height:419px;margin:0 1em 1em 0;width:908px}'
+          styleId: 3224661266,
+          css: '.image[data-jsx="3224661266"]{width:908px}.slider-container[data-jsx="3224661266"]{height:419px;margin:0 1em 1em 0;width:908px}'
         })
       );
     }

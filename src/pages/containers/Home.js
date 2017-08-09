@@ -21,13 +21,13 @@ class HomeView extends Component {
         {
           id: 2,
           image: '/public/img/projects/herramientas.jpg',
-          title: 'Documentos en linea',
+          title: 'Herramientas y Sistemas',
           description: 'Consulta y descarga documentos.'
         },
         {
           id: 3,
           image: '/public/img/projects/directorio.jpg',
-          title: 'Documentos en linea',
+          title: 'Directorio',
           description: 'Consulta y descarga documentos.'
         },
         {

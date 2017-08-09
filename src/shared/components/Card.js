@@ -1,5 +1,5 @@
 import React from 'react'
-import PrimaryButton from './PrimaryButton'
+import Button from './PrimaryButton'
 
 const Card = (props) => (
   <article className="card">
@@ -11,9 +11,9 @@ const Card = (props) => (
       <div className="description-container">
         <p className="description">{props.description}</p>
       </div>
-      <PrimaryButton>
+      <Button>
         Acceder
-      </PrimaryButton>
+      </Button>
     </div>
 
 

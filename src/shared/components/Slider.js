@@ -24,16 +24,16 @@ class SimpleSlider extends Component {
       <div className="slider-container">
         <Slider {...this.state}>
           <div>
-            <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1"/>
+            <img className="image" src="/public/img/slider/ps-esp.jpg"/>
           </div>
           <div>
-            <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2"/>
-          </div>
-          <div>
-            <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3"/>
+            <img className="image" src="/public/img/slider/bienvenido.jpg"/>
           </div>
         </Slider>
         <style jsx>{`
+          .image {
+            width: 908px;
+          }
           .slider-container {
             height: 419px;
             margin: 0 1em 1em 0;
