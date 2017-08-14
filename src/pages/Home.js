@@ -31,7 +31,7 @@ class HomeView extends Component {
           image: '/public/img/projects/directorio.jpg',
           title: 'Directorio',
           description: 'Consulta y descarga documentos.',
-          link: '/tools'
+          link: '/directory'
         },
         {
           id: 4,
