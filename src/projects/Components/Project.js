@@ -1,22 +1,60 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Button from '../../shared/components/PrimaryButton'
 
 const Project = (props) => (
-  <div className="project">
-    <img className="image" src={props.image}/>
-    <p className="description">{props.description}</p>
+  <article className="project">
+    <figure className="image-container">
+      <img className="image" src={props.image} />
+    </figure>
+    <div className="body">
+      <h3 className="title">{props.title}</h3>
+      <div className="description-container">
+        <p className="description">{props.description}</p>
+      </div>
+      <Link to={props.link}>
+        <Button>
+          Acceder
+        </Button>
+      </Link>
+    </div>
+
     <style jsx>{`
+      .body {
+        padding: 0 1.5em;
+      }
+
       .project {
         background-color: #fff;
-        height: 189px;
+        height: 419px;
         margin: 0 1em 1em 0;
-        width: 215px;
+        max-width: 215px;
+      }
+
+      .description {
+        text-align: center;
+      }
+
+      .description-container {
+        height: 80px;
       }
 
       .image {
         width: 100%;
       }
-    `}</style>
-  </div>
-)
+
+      .image-container {
+        height: 196px;
+      }
+
+      .title {
+        font-weight: 900;
+        height: 80px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      `}</style>
+    </article>
+  )
 
 export default Project

@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
-import Footer from '../components/Footer'
-import LoggedinCard from '../../shared/components/LoggedinCard'
-import ProjectList from '../../projects/components/ProjectList'
+import Footer from '../shared/components/Footer'
+import LoggedinCard from '../login/components/LoggedinCard'
+import Logo from '../shared/components/Logo'
+import FlatButton from '../shared/components/FlatButton'
+import Slider from '../shared/components/Slider'
+import Project from '../projects/components/Project'
 
-class ProjectView extends Component {
+class HomeView extends Component {
   constructor (props) {
     super(props)
 
@@ -12,37 +15,47 @@ class ProjectView extends Component {
         {
           id: 1,
           image: '/public/img/projects/documentos.jpg',
-          description: 'Consulta y descarga documentos.'
+          title: 'Documentos en linea',
+          description: 'Consulta y descarga documentos.',
+          link: '/tools'
         },
         {
           id: 2,
           image: '/public/img/projects/herramientas.jpg',
+          title: 'Herramientas y Sistemas',
           description: 'Consulta y descarga documentos.',
+          link: '/tools'
         },
         {
           id: 3,
           image: '/public/img/projects/directorio.jpg',
-          description: 'Consulta y descarga documentos.'
+          title: 'Directorio',
+          description: 'Consulta y descarga documentos.',
+          link: '/tools'
         },
         {
           id: 4,
           image: '/public/img/projects/sms.jpg',
-          description: 'Consulta y descarga documentos.'
+          description: 'Consulta y descarga documentos.',
+          link: '/tools'
         },
         {
           id: 5,
           image: '/public/img/projects/PAWA-transmitido.jpg',
-          description: 'Consulta y descarga documentos.'
+          description: 'Consulta y descarga documentos.',
+          link: '/tools'
         },
         {
           id: 6,
           image: '/public/img/projects/soporte.jpg',
-          description: 'Consulta y descarga documentos.'
+          description: 'Consulta y descarga documentos.',
+          link: '/tools'
         },
         {
           id: 7,
           image: '/public/img/projects/outlook.jpg',
-          description: 'Consulta y descarga documentos.'
+          description: 'Consulta y descarga documentos.',
+          link: '/tools'
         }
       ]
     }
@@ -50,10 +63,13 @@ class ProjectView extends Component {
 
   render () {
     return (
-      <section className="view">
+      <section className="home-view">
         <div className="container">
           <LoggedinCard />
-          <ProjectList projects={this.state.projects} />
+          <Slider />
+          {this.state.projects.map(project => (
+            <Project key={project.id} {...project} />
+          ))}
         </div>
         <Footer />
         <style jsx>{`
@@ -63,7 +79,7 @@ class ProjectView extends Component {
             flex-wrap: wrap;
             margin: 1em;
           }
-          .view {
+          .home-view {
             background-color: #e9e8e8;
             display: flex;
             font-family: 'Lato', 'sans-serif';
@@ -76,4 +92,4 @@ class ProjectView extends Component {
   }
 }
 
-export default ProjectView
+export default HomeView

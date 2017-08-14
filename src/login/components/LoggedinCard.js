@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from './Logo'
-import FlatButton from './FlatButton'
+import Logo from '../../shared/components/Logo'
+import Button from '../../shared/components/FlatButton'
 
 const LoggendinCard = () => (
   <article className="card">
@@ -13,7 +13,7 @@ const LoggendinCard = () => (
           <p>Bienvenido</p>
           <p>Jhon</p>
         </div>
-        <FlatButton>Salir</FlatButton>
+        <Button>Salir</Button>
       </div>
     </div>
     <footer className="footer">

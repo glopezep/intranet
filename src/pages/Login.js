@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Footer from '../components/Footer'
-import Login from '../../login/components/Login'
+import Footer from '../shared/components/Footer'
+import Login from '../login/components/Login'
 
 class LoginView extends Component {
   render () {

@@ -1,13 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import Page from './pages/containers/Page'
+import App from './pages/'
 
 const container = document.getElementById('root')
 
 render(
   <BrowserRouter>
-    <Page />
+    <App />
   </BrowserRouter>,
   container
 )

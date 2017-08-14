@@ -10,11 +10,15 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get('/projects', (req, res) => {
+app.get('/directory', (req, res) => {
   res.render('index')
 })
 
 app.get('/login', (req, res) => {
+  res.render('index')
+})
+
+app.get('/tools', (req, res) => {
   res.render('index')
 })
 
