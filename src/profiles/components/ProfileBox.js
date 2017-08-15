@@ -1,10 +1,12 @@
 import React from 'react'
 import DirectoryHeader from './DirectoryHeader'
+import Profile from './Profile'
 
 
 const ProfileBox = (props) => (
   <div className="container">
     <DirectoryHeader />
+    <Profile />
 
     <style jsx>{`
       .container {

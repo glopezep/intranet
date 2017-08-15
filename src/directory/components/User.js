@@ -5,7 +5,7 @@ const User = (props) => (
   <div className="user">
     <strong className="column name">
       <Link
-        to="/profile/1"
+        to="/profile/abel.lopez"
         style={{
           textDecoration: "none",
           color: "#0F2C50"

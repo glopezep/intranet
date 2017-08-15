@@ -14,12 +14,6 @@ const DirectoryHeader = (props) => (
     </div>
 
     <style jsx>{`
-      .container {
-        background-color: #fff;
-        flex: 1;
-        padding: 2em;
-      }
-
       .description {
         font-weight: 300;
       }
