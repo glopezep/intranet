@@ -32364,145 +32364,138 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Profile = function Profile(props) {
   return _react2.default.createElement(
     "article",
-    { className: "profile", "data-jsx": 905116819
+    { className: "profile", "data-jsx": 3160245276
     },
-    _react2.default.createElement("img", { className: "avatar", src: "/public/img/user.png", "data-jsx": 905116819
+    _react2.default.createElement("img", { className: "avatar", src: "/public/img/user.png", "data-jsx": 3160245276
     }),
     _react2.default.createElement(
       "div",
       {
-        "data-jsx": 905116819
+        "data-jsx": 3160245276
       },
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Nombre Completo:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "Abel L\xF3pez"
         )
       ),
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Oficina:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "Abel L\xF3pez"
         )
       ),
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Cargo:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "Soporte TI"
         )
       ),
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Tel\xE9fono:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "809-807-6444"
         )
       ),
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Extensi\xF3n:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "1013"
         )
       ),
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Mobile:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "829-345-4569"
         )
       ),
       _react2.default.createElement(
         "div",
-        { className: "row", "data-jsx": 905116819
+        { className: "row", "data-jsx": 3160245276
         },
         _react2.default.createElement(
           "strong",
-          { className: "strong", "data-jsx": 905116819
+          { className: "strong", "data-jsx": 3160245276
           },
           "Email:"
         ),
         _react2.default.createElement(
           "span",
-          {
-            "data-jsx": 905116819
+          { className: "value", "data-jsx": 3160245276
           },
           "abel.lopez@pawadominicana.com"
         )
       )
     ),
     _react2.default.createElement(_style2.default, {
-      styleId: 905116819,
-      css: ".avatar[data-jsx=\"905116819\"]{border-radius:50%;height:160px;margin-right:2em}.profile[data-jsx=\"905116819\"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-top:2px solid #7f9bb7;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-top:2.5em}.row[data-jsx=\"905116819\"]{margin-bottom:.5em}.strong[data-jsx=\"905116819\"]{margin-right:.3em}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wcm9maWxlcy9jb21wb25lbnRzL1Byb2ZpbGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkJnQixBQUcyQixBQU1DLEFBT0EsQUFJRCxrQkFoQkwsQUFpQmYsQ0FKQSxZQVptQixpQkFDbkIsNkNBSStCLDZCQUNoQiwwRUFDSyxrQkFDcEIiLCJmaWxlIjoic3JjL3Byb2ZpbGVzL2NvbXBvbmVudHMvUHJvZmlsZS5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvZ3VpbGxlcm1vbG9wZXovRGVza3RvcC9pbnRyYW5ldC9pbnRyYW5ldCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuY29uc3QgUHJvZmlsZSA9IChwcm9wcykgPT4gKFxuICA8YXJ0aWNsZSBjbGFzc05hbWU9XCJwcm9maWxlXCI+XG4gICAgPGltZyBjbGFzc05hbWU9XCJhdmF0YXJcIiBzcmM9XCIvcHVibGljL2ltZy91c2VyLnBuZ1wiIC8+XG4gICAgPGRpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwic3Ryb25nXCI+Tm9tYnJlIENvbXBsZXRvOjwvc3Ryb25nPjxzcGFuPkFiZWwgTMOzcGV6PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cInN0cm9uZ1wiPk9maWNpbmE6PC9zdHJvbmc+PHNwYW4+QWJlbCBMw7NwZXo8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwic3Ryb25nXCI+Q2FyZ286PC9zdHJvbmc+PHNwYW4+U29wb3J0ZSBUSTwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgPHN0cm9uZyBjbGFzc05hbWU9XCJzdHJvbmdcIj5UZWzDqWZvbm86PC9zdHJvbmc+PHNwYW4+ODA5LTgwNy02NDQ0PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cInN0cm9uZ1wiPkV4dGVuc2nDs246PC9zdHJvbmc+PHNwYW4+MTAxMzwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgPHN0cm9uZyBjbGFzc05hbWU9XCJzdHJvbmdcIj5Nb2JpbGU6PC9zdHJvbmc+PHNwYW4+ODI5LTM0NS00NTY5PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cInN0cm9uZ1wiPkVtYWlsOjwvc3Ryb25nPjxzcGFuPmFiZWwubG9wZXpAcGF3YWRvbWluaWNhbmEuY29tPC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAuYXZhdGFyIHtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgICAgICBoZWlnaHQ6IDE2MHB4O1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDJlbTtcbiAgICAgIH1cblxuICAgICAgLnByb2ZpbGUge1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBib3JkZXItdG9wOiAycHggc29saWQgIzdmOWJiNztcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgcGFkZGluZy10b3A6IDIuNWVtO1xuICAgICAgfVxuXG4gICAgICAucm93IHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogLjVlbTtcbiAgICAgIH1cblxuICAgICAgLnN0cm9uZyB7XG4gICAgICAgIG1hcmdpbi1yaWdodDogLjNlbTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvYXJ0aWNsZT5cbilcblxuZXhwb3J0IGRlZmF1bHQgUHJvZmlsZVxuIl19 */\n/*@ sourceURL=src/profiles/components/Profile.js */"
+      styleId: 3160245276,
+      css: ".avatar[data-jsx=\"3160245276\"]{border-radius:50%;height:160px;margin-right:2em}.profile[data-jsx=\"3160245276\"]{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-top:2px solid #7f9bb7;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-top:2.5em}.row[data-jsx=\"3160245276\"]{margin-bottom:.5em}.strong[data-jsx=\"3160245276\"]{margin-right:.3em}.value[data-jsx=\"3160245276\"]{font-weight:300}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9wcm9maWxlcy9jb21wb25lbnRzL1Byb2ZpbGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBb0NnQixBQUcyQixBQU1DLEFBT0EsQUFJRCxBQUlGLGdCQUNsQixFQXJCZSxBQWlCZixDQUpBLFlBWm1CLGlCQUNuQiw2Q0FJK0IsNkJBQ2hCLDBFQUNLLGtCQUNwQiIsImZpbGUiOiJzcmMvcHJvZmlsZXMvY29tcG9uZW50cy9Qcm9maWxlLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9ndWlsbGVybW9sb3Blei9EZXNrdG9wL2ludHJhbmV0L2ludHJhbmV0Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuXG5jb25zdCBQcm9maWxlID0gKHByb3BzKSA9PiAoXG4gIDxhcnRpY2xlIGNsYXNzTmFtZT1cInByb2ZpbGVcIj5cbiAgICA8aW1nIGNsYXNzTmFtZT1cImF2YXRhclwiIHNyYz1cIi9wdWJsaWMvaW1nL3VzZXIucG5nXCIgLz5cbiAgICA8ZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgPHN0cm9uZyBjbGFzc05hbWU9XCJzdHJvbmdcIj5Ob21icmUgQ29tcGxldG86PC9zdHJvbmc+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInZhbHVlXCI+QWJlbCBMw7NwZXo8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwic3Ryb25nXCI+T2ZpY2luYTo8L3N0cm9uZz5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidmFsdWVcIj5BYmVsIEzDs3Blejwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgPHN0cm9uZyBjbGFzc05hbWU9XCJzdHJvbmdcIj5DYXJnbzo8L3N0cm9uZz5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidmFsdWVcIj5Tb3BvcnRlIFRJPC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cInN0cm9uZ1wiPlRlbMOpZm9ubzo8L3N0cm9uZz5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidmFsdWVcIj44MDktODA3LTY0NDQ8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwic3Ryb25nXCI+RXh0ZW5zacOzbjo8L3N0cm9uZz5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidmFsdWVcIj4xMDEzPC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cInN0cm9uZ1wiPk1vYmlsZTo8L3N0cm9uZz5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidmFsdWVcIj44MjktMzQ1LTQ1Njk8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwic3Ryb25nXCI+RW1haWw6PC9zdHJvbmc+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInZhbHVlXCI+YWJlbC5sb3BlekBwYXdhZG9taW5pY2FuYS5jb208L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5hdmF0YXIge1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgIGhlaWdodDogMTYwcHg7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMmVtO1xuICAgICAgfVxuXG4gICAgICAucHJvZmlsZSB7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGJvcmRlci10b3A6IDJweCBzb2xpZCAjN2Y5YmI3O1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBwYWRkaW5nLXRvcDogMi41ZW07XG4gICAgICB9XG5cbiAgICAgIC5yb3cge1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAuNWVtO1xuICAgICAgfVxuXG4gICAgICAuc3Ryb25nIHtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAuM2VtO1xuICAgICAgfVxuXG4gICAgICAudmFsdWUge1xuICAgICAgICBmb250LXdlaWdodDogMzAwO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9hcnRpY2xlPlxuKVxuXG5leHBvcnQgZGVmYXVsdCBQcm9maWxlXG4iXX0= */\n/*@ sourceURL=src/profiles/components/Profile.js */"
     })
   );
 };

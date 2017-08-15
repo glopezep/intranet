@@ -5,25 +5,32 @@ const Profile = (props) => (
     <img className="avatar" src="/public/img/user.png" />
     <div>
       <div className="row">
-        <strong className="strong">Nombre Completo:</strong><span>Abel López</span>
+        <strong className="strong">Nombre Completo:</strong>
+        <span className="value">Abel López</span>
       </div>
       <div className="row">
-        <strong className="strong">Oficina:</strong><span>Abel López</span>
+        <strong className="strong">Oficina:</strong>
+        <span className="value">Abel López</span>
       </div>
       <div className="row">
-        <strong className="strong">Cargo:</strong><span>Soporte TI</span>
+        <strong className="strong">Cargo:</strong>
+        <span className="value">Soporte TI</span>
       </div>
       <div className="row">
-        <strong className="strong">Teléfono:</strong><span>809-807-6444</span>
+        <strong className="strong">Teléfono:</strong>
+        <span className="value">809-807-6444</span>
       </div>
       <div className="row">
-        <strong className="strong">Extensión:</strong><span>1013</span>
+        <strong className="strong">Extensión:</strong>
+        <span className="value">1013</span>
       </div>
       <div className="row">
-        <strong className="strong">Mobile:</strong><span>829-345-4569</span>
+        <strong className="strong">Mobile:</strong>
+        <span className="value">829-345-4569</span>
       </div>
       <div className="row">
-        <strong className="strong">Email:</strong><span>abel.lopez@pawadominicana.com</span>
+        <strong className="strong">Email:</strong>
+        <span className="value">abel.lopez@pawadominicana.com</span>
       </div>
     </div>
 
@@ -47,6 +54,10 @@ const Profile = (props) => (
 
       .strong {
         margin-right: .3em;
+      }
+
+      .value {
+        font-weight: 300;
       }
     `}</style>
   </article>
