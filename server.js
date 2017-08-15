@@ -18,6 +18,10 @@ app.get('/login', (req, res) => {
   res.render('index')
 })
 
+app.get('/profile/:username', (req, res) => {
+  res.render('index')
+})
+
 app.get('/tools', (req, res) => {
   res.render('index')
 })

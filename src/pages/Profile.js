@@ -1,15 +1,20 @@
 import React, { Component } from 'react'
 import Footer from '../shared/components/Footer'
 import LoggedinCard from '../login/components/LoggedinCard'
-import DirectoryBox from '../directory/components/DirectoryBox'
+import ProfileBox from '../profiles/components/ProfileBox'
 
-class DirectoryView extends Component {
+
+class ProfileView extends Component {
+  constructor (props) {
+    super(props)
+  }
+
   render () {
     return (
       <section className="view">
         <div className="container">
           <LoggedinCard />
-          <DirectoryBox />
+          <ProfileBox />
         </div>
         <Footer />
         <style jsx>{`
@@ -32,4 +37,4 @@ class DirectoryView extends Component {
   }
 }
 
-export default DirectoryView
+export default ProfileView
