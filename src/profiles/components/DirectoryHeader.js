@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../shared/components/Logo'
+import Link from 'react-router-dom'
 
 const DirectoryHeader = (props) => (
   <header className="header">
@@ -11,6 +12,7 @@ const DirectoryHeader = (props) => (
       </div>
     </div>
     <div className="right">
+      <button onClick={() => props.history.goBack()}>back</button>
     </div>
 
     <style jsx>{`

@@ -14,7 +14,7 @@ class ProfileView extends Component {
       <section className="view">
         <div className="container">
           <LoggedinCard />
-          <ProfileBox />
+          <ProfileBox {...this.props} />
         </div>
         <Footer />
         <style jsx>{`

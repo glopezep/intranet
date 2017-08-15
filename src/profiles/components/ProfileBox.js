@@ -5,7 +5,7 @@ import Profile from './Profile'
 
 const ProfileBox = (props) => (
   <div className="container">
-    <DirectoryHeader />
+    <DirectoryHeader {...props} />
     <Profile />
 
     <style jsx>{`
