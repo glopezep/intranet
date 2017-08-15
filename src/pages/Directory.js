@@ -13,7 +13,6 @@ class ToolView extends Component {
         </div>
         <Footer />
         <style jsx>{`
-
           .container {
             display: flex;
             flex-wrap: wrap;
@@ -22,6 +21,7 @@ class ToolView extends Component {
           .view {
             background-color: #e9e8e8;
             display: flex;
+            color: #0F2C50;
             font-family: 'Lato', 'sans-serif';
             flex-direction: column;
             min-height: 100vh;

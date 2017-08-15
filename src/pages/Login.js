@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import Footer from '../shared/components/Footer'
-import Login from '../login/components/Login'
+import Login from '../login/containers/Login'
 
 class LoginView extends Component {
   render () {
     return (
-      <section className="login-view">
+      <section className="view">
         <Login />
         <Footer />
+
         <style jsx>{`
-          .login-view {
+          .view {
             display: flex;
             background: url('/public/img/bg-3.jpg') center center no-repeat;
             background-size: cover;
